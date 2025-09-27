@@ -1,0 +1,45 @@
+# Node / JS
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Expo / React Native caches
+.expo/
+.expo-shared/
+.expo-dev-cache/
+.expo-tmp/
+.expo-web-cache/
+
+# Turborepo / build caches
+.turbo/
+.next/
+.cache/
+
+# Build outputs
+build/
+dist/
+web-build/
+android/
+ios/
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files (do not commit secrets)
+*.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+coverage/
+.caches/
+.tmp/
